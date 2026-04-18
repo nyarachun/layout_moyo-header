@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      content="width=device-width, initial-scale=1.0"
     />
     <meta
       http-equiv="X-UA-Compatible"
@@ -22,84 +22,88 @@
     <link
       rel="preconnect"
       href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <header>
-      <a href="logo">
+    <header class="site-header">
+      <a
+        href="./"
+        class="site-header__logo-link"
+      >
         <img
-          class="img"
+          class="site-header__logo-img"
           src="./images/logo.png"
-          alt="logo"
+          alt="MOYO logo"
         />
       </a>
-      <nav>
-        <ul class="nav-list">
-          <li>
+      <nav class="site-nav">
+        <ul class="site-nav__list">
+          <li class="site-nav__item">
             <a
-              href="Apple"
-              class="is-active li1"
+              href="#apple"
+              class="site-nav__link is-active"
             >
               Apple
             </a>
           </li>
-          <li>
+          <li class="site-nav__item">
             <a
-              href="Samsung"
-              class="li2"
+              href="#samsung"
+              class="site-nav__link"
             >
               Samsung
             </a>
           </li>
-          <li>
+          <li class="site-nav__item">
             <a
-              href="Smartphones"
-              class="li3"
+              href="#smartphones"
+              class="site-nav__link"
             >
               Smartphones
             </a>
           </li>
-          <li>
+          <li class="site-nav__item">
             <a
-              href="Laptops&Computers"
+              href="#laptops-computers"
               data-qa="hover"
-              class="li4"
+              class="site-nav__link"
             >
               Laptops & Computers
             </a>
           </li>
-          <li>
+          <li class="site-nav__item">
             <a
-              href="Gadgets"
-              class="li5"
+              href="#gadgets"
+              class="site-nav__link"
             >
               Gadgets
             </a>
           </li>
-          <li>
+          <li class="site-nav__item">
             <a
-              href="Tablets"
-              class="li6"
+              href="#tablets"
+              class="site-nav__link"
             >
               Tablets
             </a>
           </li>
-          <li>
+          <li class="site-nav__item">
             <a
-              href="Photo"
-              class="li7"
+              href="#photo"
+              class="site-nav__link"
             >
               Photo
             </a>
           </li>
-          <li>
+          <li class="site-nav__item">
             <a
-              href="Video"
-              class="li8"
+              href="#video"
+              class="site-nav__link"
             >
               Video
             </a>
