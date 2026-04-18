@@ -4,13 +4,11 @@ html {
   box-sizing: border-box;
 }
 
-html *,
-html *::before,
-html *::after {
-  box-sizing: inherit;
+* {
+  box-sizing: border-box;
 }
 
-.body {
+body {
   margin: 0;
   padding: 0;
   font-family: Roboto, sans-serif;
@@ -26,8 +24,6 @@ html *::after {
 
 .site-header__logo-link {
   display: flex;
-  margin-top: 10px;
-  margin-bottom: 0;
   text-decoration: none;
 }
 
@@ -67,7 +63,6 @@ html *::after {
   text-align: center;
   text-decoration: none;
   color: black;
-  transition: color 0.3s ease;
 }
 
 .site-nav__link.is-active {
